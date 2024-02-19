@@ -32,6 +32,7 @@ body {
 
 .search {
     width: 100%;
+    max-width: 470px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -143,3 +144,22 @@ footer i:hover {
     display: none;
 }
 
+@media screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+        padding: 30px;
+    }
+    .search{
+        width: 100%;
+    }
+    .weather h1 {
+        font-size: 45px;
+    }
+    .weather h2 {
+        font-size: 25px;
+    }
+    .weather-icon {
+        width: 120px;
+        margin-top: 20px;
+    }
+}
