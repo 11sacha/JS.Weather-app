@@ -144,7 +144,7 @@ footer i:hover {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 749px) {
     .card {
         width: 80%;
         padding: 30px;
@@ -161,5 +161,9 @@ footer i:hover {
     .weather-icon {
         width: 120px;
         margin-top: 20px;
+    }
+    .col {
+        margin: 12px 0;
+        justify-content: space-between;
     }
 }
