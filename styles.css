@@ -144,7 +144,7 @@ footer i:hover {
     display: none;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 767px) {
     .card {
         width: 80%;
         padding: 30px;
@@ -164,7 +164,26 @@ footer i:hover {
     }
     .col {
         margin: 12px 0;
-        padding: 10px;
+        padding-right: 10px;
         justify-content: space-between;
+    }
+    .details {
+        align-items: center;
+        padding-right: -40px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .card {
+        max-width: 90%;
+    }
+    .icon {
+        transform: scale(0.9);
+        transform-origin: top right;
+    }
+    .icon-btn {
+        transform: scale(0.9);
+        transform-origin: top right;
+        margin-top: 10px;
     }
 }
